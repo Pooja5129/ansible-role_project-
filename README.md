@@ -62,8 +62,8 @@ You should see the deployed web page.
 
     Understanding of Ansible playbooks and roles
 
-   Hands-on experience with configuration management
+    Hands-on experience with configuration management
 
-   Automation of web server deployment
+    Automation of web server deployment
 
-   Working with handlers, modules, and inventory
+    Working with handlers, modules, and inventory
