@@ -1,0 +1,6 @@
+- name: Deploy Website using Role (Nginx)
+  hosts: localhost
+  become: yes
+
+  roles:
+      - webserver
