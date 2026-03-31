@@ -12,3 +12,10 @@
      src: index.html
      dest: /var/www/html/index.html
   notify: Restart nginx
+- name: Show DB user
+  debug:
+    msg: "{{ db_user }}"
+
+- name: Show DB password
+  debug:
+    msg: "{{ db_password }}"

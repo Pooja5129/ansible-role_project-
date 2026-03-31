@@ -1,6 +1,8 @@
 - name: Deploy Website using Role (Nginx)
   hosts: localhost
   become: yes
+  vars_files:
+    - secrets.yml
 
   roles:
       - webserver
